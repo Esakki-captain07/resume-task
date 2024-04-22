@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.full-wrapper{
+    border: 1px solid black;
+}
+.nav-wrapper{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(167, 163, 163);
+
+    
+}
+
+.nav-head{
+    display: flex;
+    align-items:center;
+    padding: 15px;
+    justify-content: right;
+    background-color:rgb(167, 163, 163);
+}
+
+.nav-profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #503f3f;
+}
+
+.nav-profile img{
+border-radius: 50%;
+border: 4px dotted #fabe27;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.tittle{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color:rgb(167, 163, 163);
+
+}
+
+
+.tittle h1{
+background-color: #fabe27;
+width: 350px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bg{
+    height: 35px;
+    background-color: #503f3f;
+}
+
+.address{
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* body */
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-row{
+    width: 50%;
+}
+
+
+.profile i{
+    background-color: #503f3f;
+    width: 5px;
+    color: yellow;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 5px dotted yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.profile-item{
+    height: 50px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.skill-profile{
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container{
+     height: 350px;
+    width: 50%;
+}
+
+
+.right-container{
+    height: 350px;
+    width: 50%;
+    float: right;
+
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+
+.skills-bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap : 50px
+}
+.skills-bar h3{
+    font-weight: 300;
+    margin-bottom: 10px;
+    display: inline block;
+    margin-left: 10px;
+}
+
+.progress-bar{
+    background-color: #fff;
+    border: 1px solid #e9d8d8;
+    width: 450px;
+    height: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+.progress-bar > div{
+    height: 100%;
+    border-radius: 5px;
+    width: 50%;
+    background: yellow;
+}
+
+.progress-bar .javascript{
+    width: 80%;
+}
+
+.progress-bar .css{
+    width: 80%;
+}
+
+.progress-bar .html{
+    width: 80%;
+}
+
+.progress-bar .react{
+    width: 60%;
+}
+
+.progress-bar .redux{
+    width: 60%;
+
+}
+
+.progress-bar .mongo{
+    width: 80%;
+}
+
+.progress-bar .deployment{
+    width: 100%;
+}
+
+.progress-bar div span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: right;
+    margin-top: -7px;
+    border: 1px solid black;
+    margin-right: -18px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrer i{
+    height: 10px;
+}
+
+.event{
+    display:flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.list{
+    font-size:larger; 
+    margin-left: 35px;
+    padding: 20px;
+}
+
+.container{
+    flex-direction: column;
+}
+.vl{
+    height: 600px;
+    border-left: 2px solid #333;
+    
+}
+
+@media(max-width : 1100px){
+    
+
+    .profile-row{
+        width: 50%;
+        padding: 10px;
+    
+    }
+
+    .vl{
+        display: flex;
+        align-items: center;  
+    }
+
+    .container-experience{
+        width: 50%;
+    }
+
+
+
+   
+}
+
+
